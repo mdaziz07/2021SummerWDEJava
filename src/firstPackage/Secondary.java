@@ -1,5 +1,6 @@
 package firstPackage;
 
+import basics.oopPractice.LearnEncapsulation;
 import practice.LearnAccessModifiers;
 
 public class Secondary {
@@ -8,5 +9,8 @@ public class Secondary {
 
         LearnAccessModifiers.doSomethingSpecial();
         LearnAccessModifiers.accessZVariable();
+
+        LearnEncapsulation obj1 = new LearnEncapsulation();
+        System.out.println(obj1.getAccount_bal());
     }
 }
